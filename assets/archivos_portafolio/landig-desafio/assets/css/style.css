@@ -1,0 +1,46 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.header {
+    height: 10em;
+padding: 5em;
+font-size: 2em;
+
+    background-image:url(../imgs/tienda-de-orquideas/fondo/fondo-or.jpeg);
+    background-size: cover;
+background-position: center;
+}   
+
+.header h1{
+    margin: 0px;
+    font-weight: 400;
+}
+
+.products img {
+    padding:0   ;
+    width: 80%;
+    margin: auto;
+}
+
+.products td{
+    padding:0  ;
+    width:  100%;
+    border: solid 1px #ddd;
+}
+
+.products img{
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185,112 green, 41 blue);
+color: black;
+text-align: center;
+font-weight: 900;
+
+} 

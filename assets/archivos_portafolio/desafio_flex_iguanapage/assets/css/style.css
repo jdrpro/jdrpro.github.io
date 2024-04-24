@@ -1,0 +1,172 @@
+*{
+  padding: 0%;
+margin: 0%;
+}
+
+
+body{
+  width: 1280px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+header{
+  padding: 10px;
+}
+/* titulo principal */
+
+.titulo{
+   
+  color: white;
+  font-family: 'Raleway', sans-serif ;
+  font: size 70px;
+  text-align: center;
+
+}
+
+main {
+
+}
+
+
+
+/* primera imagen con info */
+.principal {
+  display: flex;
+  margin: 150px;
+  gap: 90px;
+
+}
+
+.textoImagen {
+  width: 475px;
+  height: 200px;
+  color: white;
+  display: block;
+  font-family: 'Raleway', sans-serif ;
+
+}
+
+.principal_img {
+
+  width: 399;
+  height: 237px;
+}
+/*  contenedor de titulos y fontawsome */
+.contenedor_icons_text {
+  background-color: #1E1A13;
+  color: white;
+  
+  height: 30vh;
+  width: 100%;
+  padding: 1.0rem;
+  
+}
+
+.titulocaract {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 75px;
+  font-family: 'Raleway', sans-serif ;
+  font-size: 40px;
+}
+
+
+.contenedor_icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 55px;
+}
+
+
+.icon {
+  display:block;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  
+
+}
+
+.contenedoricon {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.texto_icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+  font-family: 'Raleway', sans-serif ;
+}
+
+.icon p {}
+ /* .titulocaract {
+
+  color: white;
+  text-align: center;
+  display: block;
+} -->
+*/
+
+
+
+ /* galeria de 3 imagenes */
+
+
+ .galeria_3_img {
+  padding: 73px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+ .galeria_img_1 {
+  height: 202px;
+  width: 316px;
+  margin: 16px;
+
+ }
+
+ .galeria_img_2 {
+  height: 202px;
+  width: 316px;
+  margin: 16px;
+
+ }
+
+ .galeria_img_3 {
+  height: 202px;
+  width: 316px;
+  margin: 16px;
+
+ }
+
+
+
+
+
+ /* footer */
+
+ .footer_link {
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif ;
+ }
+
+ footer {
+  padding: 45px;
+  width: 100%;
+  background-color: #1E1A13;
+ }

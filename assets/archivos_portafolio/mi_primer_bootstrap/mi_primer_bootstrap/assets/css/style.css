@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+.navbar_options {
+display: flex;
+justify-content: end;}
+
+nav{
+    background-color: #28a745;
+}
+
+
+/* galeria  */
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+
+.imgs_card {
+    width: 180px;
+    height: 278px ;
+
+}
+
+
+.font_card_dark{
+    font-family: Roboto, Medium;
+    font-weight: 500;
+}
+
+.font_card_light{
+    font-family: Roboto, Light;
+    font-weight: 300;
+
+}
+
+.contenedor_text_icon{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.font_card_light_s{
+    font-family: Roboto, Light;
+    font-weight: 300;
+
+}
+
+.contenedor_precios{
+    display: flex;
+    justify-content: flex-end;
+    gap:2rem;
+    
+    
+
+}
+
+.precio_antiguo{
+    display: flex;
+    
+    font-family: Roboto, Light;
+    font-weight: 200;
+}
+
+.precio_promo{
+   
+    display: flex;
+
+    font-family: Roboto, Medium;
+    font-weight: 600;
+    color: #28a745;
+}
+
+
+
+
+/* form */
+
+form{
+    background-color: #28a745;
+  
+
+}
+
+.titulo_form{
+    color: white;
+}
+
